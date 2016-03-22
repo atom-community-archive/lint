@@ -1,0 +1,38 @@
+{
+  "name": "lint",
+  "description": "Run lint tools using lint providers.",
+  "keywords": [
+    "lint",
+    "linter",
+    "error",
+    "warning",
+    "message",
+    "messages"
+  ],
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "repository": "https://github.com/atom-community/lint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.5.3 <2.0.0"
+  },
+  "author": "Joe Fitzgerald <jfitzgerald@pivotal.io> (http://github.com/joefitzgerald)",
+  "homepage": "https://atom.io/packages/lint",
+  "bugs": {
+    "url": "https://github.com/atom-community/lint/issues"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "babel-eslint": "^6.0.0-beta.6",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "eslint-plugin-promise": "^1.1.0"
+  },
+  "configSchema": {},
+  "standard": {
+    "globals": [
+      "atom",
+      "waitsForPromise"
+    ]
+  }
+}
